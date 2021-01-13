@@ -1,0 +1,9 @@
+﻿nav{
+  display: flex;
+}
+
+nav .seccion{
+  display: flex;
+  justify-content: right;
+}
+

@@ -1,0 +1,134 @@
+*{
+    font-family: 'Playfair Display', serif;
+    color: #777777;
+}
+
+h1{
+    font-size: 32px;
+    color: #4b4b4b;
+}
+
+/*Navigation*/
+nav{
+    padding-top: 20px;
+    display: flex;
+}
+
+nav a{
+    margin-left: 40px  ;
+    text-decoration: none;
+    color: #777777;
+}
+
+nav .seccion{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    padding-top: 10px;
+}
+
+nav .seccion a{
+    margin-right: 90px;
+}
+
+
+/*Container*/
+/*imgen*/
+
+.view{
+    display: block;
+    margin: auto;
+    min-height: 316px;
+}
+
+/*seccions*/
+
+
+.information{
+    margin: 40px 160px;
+}
+
+.information p{
+    text-align: justify;
+}
+
+/*posts*/
+.post-collection{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 30px;
+}
+
+/*contact*/
+.contact-us{
+    display: grid;
+    text-align: center;
+    width: 100%;
+    background: #e8e8e8;
+    margin-bottom: 140px;
+}
+
+.contact-us input{
+    border:none;
+    width: 95%;
+    background: none;
+}
+
+.contact-us h1{
+    margin-bottom: 60px;
+}
+
+.input-tips{
+    display: block;
+    margin: 150px auto;
+    width: 40%;
+    border-bottom: 3px solid #c1c1c1;
+}
+
+/*more*/
+
+.more{
+    font-size: 20px;
+    width: 280px;
+    height: 70px;
+    margin-bottom: 200px;
+    border-radius: 0px;
+    border-bottom: 1px solid #c1c1c1;
+    border-top: 1px solid #c1c1c1;
+    border-left: 1px solid #c1c1c1;
+    border-right: 1px solid #c1c1c1;
+    background: none;
+}
+
+.footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background: #e8e8e8;
+    padding: 20px 20px;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.rules{
+    display: flex;
+    padding-left: 130px;
+    color: black;
+}
+
+.social{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    padding-right: 80px;
+}
+
+.social a{
+    margin-top: 5px;
+    margin-left: 20px;
+    color: black;
+    font-size: 18px;
+}

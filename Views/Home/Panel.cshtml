@@ -1,0 +1,33 @@
+@{
+    ViewData["Title"] = "Panel";
+}
+
+<div class="card mx-auto mt-5 container">
+    <div class="card-body">
+        <h1 class="text-center mt-4 mr-4 mr-4">Panel Administrativo</h1>
+        <form>
+
+            <div class="row mt-3 ml-4 mr-4">
+                <h6><label>Texto</label></h6>
+                <input type="text" class="form-control" placeholder="Escribir texto.">
+            </div>
+
+            <div class="row mt-4">
+                <div class="col ml-4 mr-4">
+                    <h6><label>Subir foto</label></h6>
+                    <input type="file">
+                </div>
+            </div>
+
+            <div class="row mt-3 ml-4 mr-4">
+                <h6><label>Descripcion de Foto</label></h6>
+                <textarea type="password" class="form-control" placeholder="Describe la foto."></textarea>
+            </div>
+        </form>
+
+    </div>
+    <div class="card-body mx-auto">
+        <button type="submit" class="btn-dark">Guardar cambios</button>
+        <button type="submit" class="btn-dark">Cancelar</button>
+    </div>
+</div>
