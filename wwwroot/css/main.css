@@ -123,6 +123,7 @@ nav .seccion a{
     display: flex;
     width: 100%;
     justify-content: right;
+    text-align: left;
     padding-right: 80px;
 }
 
